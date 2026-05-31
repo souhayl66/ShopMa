@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShopMa</string>
+    <string name="app_subtitle">Votre marketplace marocain</string>
+
+    <!-- Login -->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="remember_me">Se rappeler de moi</string>
+    <string name="btn_login">Se connecter</string>
+    <string name="error_empty_fields">Veuillez remplir tous les champs</string>
+    <string name="error_password_length">Le mot de passe doit contenir au moins 6 caractères</string>
+    <string name="error_invalid_credentials">Email ou mot de passe incorrect</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_message">Bonjour, %1$s</string>
+    <string name="all_products">Tous les produits</string>
+    <string name="electronics">Électronique</string>
+    <string name="jewelery">Bijoux</string>
+    <string name="mens_clothing">Mode Homme</string>
+    <string name="womens_clothing">Mode Femme</string>
+    <string name="pickup_points">Points de retrait</string>
+
+    <!-- Catalogue -->
+    <string name="catalogue_title">Catalogue</string>
+    <string name="via_fakestoreapi">via FakeStoreAPI</string>
+    <string name="added_to_cart">Produit ajouté au panier</string>
+    <string name="network_error">Erreur réseau. Vérifiez votre connexion.</string>
+
+    <!-- Panier -->
+    <string name="panier_title">Mon panier</string>
+    <string name="panier_empty">Votre panier est vide</string>
+    <string name="total_label">Total</string>
+    <string name="btn_commander">Passer commande</string>
+    <string name="quantite_label">Quantité : %1$d</string>
+    <string name="order_success">Commande passée avec succès !</string>
+
+    <!-- Recherche -->
+    <string name="recherche_title">Rechercher</string>
+    <string name="search_hint">Catégorie…</string>
+    <string name="btn_ok">OK</string>
+    <string name="results_for">Résultats pour &quot;%1$s&quot; :</string>
+
+    <!-- Commandes -->
+    <string name="commandes_title">Mes commandes</string>
+    <string name="commande_number">Commande #%1$03d</string>
+    <string name="commande_date_articles">%1$s : %2$d article(s)</string>
+    <string name="statut_en_cours">En cours</string>
+    <string name="statut_livree">Livrée</string>
+
+    <!-- Points de retrait -->
+    <string name="points_retrait_title">Points de retrait</string>
+
+    <!-- Profil -->
+    <string name="profil_title">Mon profil</string>
+    <string name="nom_hint">Nom</string>
+    <string name="adresse_hint">Adresse de livraison</string>
+    <string name="btn_save">Sauvegarder</string>
+    <string name="btn_logout">Déconnexion</string>
+    <string name="btn_historique">Historique des commandes</string>
+    <string name="change_photo">Changer la photo</string>
+    <string name="profile_saved">Profil sauvegardé</string>
+    <string name="camera_permission_denied">Permission caméra refusée</string>
+    <string name="location_permission_denied">Permission localisation refusée</string>
+
+    <!-- Header Fragment -->
+    <string name="articles_in_cart">%1$d article(s) dans le panier</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_id">shopma_orders</string>
+    <string name="notif_channel_name">Commandes ShopMa</string>
+    <string name="notif_channel_desc">Notifications de confirmation de commande</string>
+    <string name="notif_order_title">Commande confirmée !</string>
+    <string name="notif_order_text">Votre commande a bien été passée. Merci !</string>
+
+    <!-- Share (implicit intent) -->
+    <string name="share_product">Partager ce produit</string>
+    <string name="share_subject">Découvrez ce produit sur ShopMa</string>
+    <!-- %1$s = title, %2$.2f = price -->
+    <string name="share_text">%1$s - %2$.2f$ sur ShopMa !</string>
+
+    <!-- Hardcoded credentials -->
+    <string name="valid_email">admin@shopma.ma</string>
+    <string name="valid_password">admin123</string>
+</resources>

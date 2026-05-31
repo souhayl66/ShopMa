@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <!-- Header Fragment container -->
+    <FrameLayout
+        android:id="@+id/headerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Title row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/surface"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_medium">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/catalogue_title"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/text_xlarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/via_fakestoreapi"
+            android:textColor="@color/text_secondary"
+            android:textSize="@dimen/text_small" />
+    </LinearLayout>
+
+    <!-- Loading indicator -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_large"
+        android:indeterminateTint="@color/primary"
+        android:visibility="gone" />
+
+    <!-- Error message -->
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/padding_large"
+        android:textColor="@color/text_secondary"
+        android:textSize="@dimen/text_medium"
+        android:visibility="gone" />
+
+    <!-- Products list -->
+    <ListView
+        android:id="@+id/lvProducts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/divider"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

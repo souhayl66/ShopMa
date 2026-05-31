@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/surface"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_medium">
+
+    <!-- Product image -->
+    <ImageView
+        android:id="@+id/ivProduct"
+        android:layout_width="@dimen/product_image_size"
+        android:layout_height="@dimen/product_image_size"
+        android:background="@color/background"
+        android:contentDescription="Image produit"
+        android:padding="4dp"
+        android:scaleType="fitCenter" />
+
+    <!-- Product info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvProductTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/text_primary"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvProductCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="@dimen/text_small" />
+
+    </LinearLayout>
+
+    <!-- Price -->
+    <TextView
+        android:id="@+id/tvProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_small"
+        android:textColor="@color/price_color"
+        android:textSize="@dimen/text_medium"
+        android:textStyle="bold" />
+
+</LinearLayout>

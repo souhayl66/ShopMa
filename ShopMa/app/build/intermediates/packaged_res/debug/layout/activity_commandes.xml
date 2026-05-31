@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <!-- Header Fragment container -->
+    <FrameLayout
+        android:id="@+id/headerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/surface"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/commandes_title"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/text_xlarge"
+        android:textStyle="bold" />
+
+    <!-- Empty state -->
+    <TextView
+        android:id="@+id/tvNoCommandes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/padding_large"
+        android:text="Aucune commande pour le moment"
+        android:textColor="@color/text_secondary"
+        android:textSize="@dimen/text_large"
+        android:visibility="gone" />
+
+    <!-- Orders list -->
+    <ListView
+        android:id="@+id/lvCommandes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/divider"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

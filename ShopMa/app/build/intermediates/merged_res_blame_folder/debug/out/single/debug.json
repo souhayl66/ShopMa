@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "com.shopma.app-merged_res-35:/menu_toolbar_menu.xml.flat",
+        "source": "com.shopma.app-main-37:/menu/toolbar_menu.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/drawable_ic_profile.xml.flat",
+        "source": "com.shopma.app-main-37:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_activity_profil.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/activity_profil.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/drawable_circle_orange_outline.xml.flat",
+        "source": "com.shopma.app-main-37:/drawable/circle_orange_outline.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/xml_file_paths.xml.flat",
+        "source": "com.shopma.app-main-37:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.shopma.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_item_cart.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/item_cart.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_activity_recherche.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/activity_recherche.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/drawable_ic_cart.xml.flat",
+        "source": "com.shopma.app-main-37:/drawable/ic_cart.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/drawable_input_background.xml.flat",
+        "source": "com.shopma.app-main-37:/drawable/input_background.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_activity_commandes.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/activity_commandes.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/drawable_badge_status_background.xml.flat",
+        "source": "com.shopma.app-main-37:/drawable/badge_status_background.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.shopma.app-main-37:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/drawable_circle_profile_bg.xml.flat",
+        "source": "com.shopma.app-main-37:/drawable/circle_profile_bg.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_activity_panier.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/activity_panier.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.shopma.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_activity_catalogue.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/activity_catalogue.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_item_commande.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/item_commande.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_activity_points_retrait.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/activity_points_retrait.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/drawable_circle_orange_filled.xml.flat",
+        "source": "com.shopma.app-main-37:/drawable/circle_orange_filled.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_activity_accueil.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/activity_accueil.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_fragment_header.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/fragment_header.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.shopma.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/drawable_circle_badge.xml.flat",
+        "source": "com.shopma.app-main-37:/drawable/circle_badge.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_activity_login.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_item_product.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.shopma.app-merged_res-35:/layout_menu_cart_badge.xml.flat",
+        "source": "com.shopma.app-main-37:/layout/menu_cart_badge.xml"
+    }
+]

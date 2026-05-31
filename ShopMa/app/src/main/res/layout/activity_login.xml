@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_large">
+
+        <!-- Spacer top -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <!-- Logo circle -->
+        <FrameLayout
+            android:layout_width="@dimen/logo_size"
+            android:layout_height="@dimen/logo_size"
+            android:background="@drawable/circle_orange_outline">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="S"
+                android:textColor="@color/primary"
+                android:textSize="@dimen/logo_text_size"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <!-- App name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/app_name"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/text_header"
+            android:textStyle="bold" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="@string/app_subtitle"
+            android:textColor="@color/text_secondary"
+            android:textSize="@dimen/text_medium" />
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <!-- Email field -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_height"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@drawable/input_background"
+            android:hint="@string/email_hint"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/padding_medium"
+            android:paddingEnd="@dimen/padding_medium"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_hint"
+            android:textSize="@dimen/text_large" />
+
+        <!-- Password field -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_height"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@drawable/input_background"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/padding_medium"
+            android:paddingEnd="@dimen/padding_medium"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_hint"
+            android:textSize="@dimen/text_large" />
+
+        <!-- Remember me -->
+        <CheckBox
+            android:id="@+id/cbRememberMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:buttonTint="@color/primary"
+            android:text="@string/remember_me"
+            android:textColor="@color/text_primary"
+            android:textSize="@dimen/text_medium" />
+
+        <!-- Login button -->
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/ShopMa.Button.Orange"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginTop="@dimen/margin_large"
+            android:text="@string/btn_login" />
+
+        <!-- Spacer bottom -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+    </LinearLayout>
+</ScrollView>

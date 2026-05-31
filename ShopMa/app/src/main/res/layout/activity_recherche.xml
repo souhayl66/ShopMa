@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <!-- Header Fragment container -->
+    <FrameLayout
+        android:id="@+id/headerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/surface"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/recherche_title"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/text_xlarge"
+        android:textStyle="bold" />
+
+    <!-- Search input row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/surface"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_medium"
+        android:paddingTop="0dp">
+
+        <EditText
+            android:id="@+id/etSearchCategory"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_height"
+            android:layout_weight="1"
+            android:background="@drawable/input_background"
+            android:hint="@string/search_hint"
+            android:paddingStart="@dimen/padding_medium"
+            android:paddingEnd="@dimen/padding_medium"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_hint"
+            android:textSize="@dimen/text_medium" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            style="@style/ShopMa.Button.Orange"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginStart="@dimen/margin_small"
+            android:minWidth="0dp"
+            android:paddingStart="@dimen/padding_medium"
+            android:paddingEnd="@dimen/padding_medium"
+            android:text="@string/btn_ok" />
+    </LinearLayout>
+
+    <!-- Category suggestion chips -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/surface"
+        android:paddingStart="@dimen/padding_medium"
+        android:paddingEnd="@dimen/padding_medium"
+        android:paddingBottom="@dimen/padding_medium">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipElectronics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:text="electronics"
+                style="@style/Widget.MaterialComponents.Chip.Choice" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipJewelery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:text="jewelery"
+                style="@style/Widget.MaterialComponents.Chip.Choice" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipMensClothing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:text="men&#39;s clothing"
+                style="@style/Widget.MaterialComponents.Chip.Choice" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipWomensClothing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="women&#39;s clothing"
+                style="@style/Widget.MaterialComponents.Chip.Choice" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Results label -->
+    <TextView
+        android:id="@+id/tvResultsLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:textColor="@color/text_secondary"
+        android:textSize="@dimen/text_small"
+        android:visibility="gone" />
+
+    <!-- Loading -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/primary"
+        android:visibility="gone" />
+
+    <!-- Results list -->
+    <ListView
+        android:id="@+id/lvResults"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/divider"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

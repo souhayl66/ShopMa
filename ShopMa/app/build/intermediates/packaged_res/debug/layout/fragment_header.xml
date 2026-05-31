@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/header_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/header_text"
+        android:textSize="@dimen/text_xlarge"
+        android:textStyle="bold"
+        android:text="Bonjour" />
+
+    <TextView
+        android:id="@+id/tvCartCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/header_text"
+        android:textSize="@dimen/text_small"
+        android:text="0 article(s) dans le panier" />
+
+</LinearLayout>
