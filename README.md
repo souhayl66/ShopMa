@@ -25,3 +25,13 @@ Below are screenshots that showcase the look and feel of the app:
 <p align="center">
   <img src="./screenshots/sc7.png" width="250" alt="Settings Screen"/>
 </p>
+
+
+## 📱 ShopMa Mobile Screenshots
+
+<p align="center">
+  <img src="./screenshots/sc1.png" width="250" alt="Home"/>
+  <img src="./screenshots/sc3.png" width="250" alt="Cart"/>
+  <img src="./screenshots/sc5.png" width="250" alt="Account"/>
+  <img src="./screenshots/sc7.png" width="250" alt="Settings"/>
+</p>
